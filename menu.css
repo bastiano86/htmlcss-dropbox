@@ -1,0 +1,39 @@
+.menu-sx {
+  width: auto;
+  padding-top: 15px;
+  margin-left: 10px;
+  display: block;
+}
+
+.menu-sx li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-sx li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.menu-dx {
+  width: auto;
+  padding-top: 15px;
+  margin-right: 10px;
+  display: block;
+}
+
+.menu-dx li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-dx li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  margin-left: 20px;
+}
