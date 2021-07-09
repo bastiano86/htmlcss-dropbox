@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+}
 .clearfix {
   content: "";
   display: table;
