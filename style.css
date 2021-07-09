@@ -3,3 +3,59 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.menu-sx {
+  height: 55px;
+  width: 50%;
+  padding-top: 10px;
+  margin-left: 10px;
+  display: block;
+}
+
+.menu-sx li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-sx li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.menu-dx {
+  height: 55px;
+  width: 50%;
+  padding-top: 10px;
+  margin-right: 10px;
+  display: block;
+}
+
+.menu-dx li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-dx li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  margin-left: 20px;
+}
