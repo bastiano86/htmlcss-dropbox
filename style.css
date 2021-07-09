@@ -6,7 +6,7 @@
 
 
 .jumbotron-inner-container {
-  padding-top: 180px;
+  padding-top: 50px;
   width: 80%;
   margin: 0 auto;
   display: block;
@@ -15,7 +15,7 @@
 .jumbotron {
   background-color: #b4d0e7;
   width: 100%;
-  height: 600px;
+  height: 80vh;
 }
 
 .big-header{
@@ -27,10 +27,24 @@
   width: 40%;
 }
 
-.big-copy-container h3,a,i {
+.big-copy-container h3,
+.big-copy-container a,
+.big-copy-container i {
+  display: block;
   margin-bottom: 20px;
 }
 
+.big-img-container {
+  width: 60%;
+}
+
 .big-img-container img {
-  width: 40%;
+  width: 100%;
+}
+
+.business-inner-container {
+  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }

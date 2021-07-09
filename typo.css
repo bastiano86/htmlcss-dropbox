@@ -9,5 +9,8 @@ body {
 .big-copy-container h3 {
   font-weight: 200;
   font-size: 1em;
+}
 
+.business-header h1 {
+  font-size: 3em;
 }

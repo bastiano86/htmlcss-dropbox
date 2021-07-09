@@ -8,7 +8,7 @@ header {
 .menu-sx {
   width: auto;
   padding-top: 25px;
-  margin-left: 10px;
+  margin-left: 30px;
   display: block;
 }
 
@@ -28,7 +28,7 @@ header {
 .menu-dx {
   width: auto;
   padding-top: 25px;
-  margin-right: 10px;
+  margin-right: 30px;
   display: block;
 }
 
