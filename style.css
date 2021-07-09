@@ -11,8 +11,14 @@ header {
   box-shadow: 0 3px 3px whitesmoke;
 }
 
-.main-container {
+.jumbotron-container {
+  padding-top: 180px;
   width: 80%;
   margin: 0 auto;
   display: block;
+}
+
+.big-copy{
+  display: block;
+  text-align: center;
 }
