@@ -30,3 +30,7 @@
 .big-copy-container h3,a,i {
   margin-bottom: 20px;
 }
+
+.big-img-container img {
+  width: 40%;
+}
