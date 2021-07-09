@@ -4,21 +4,29 @@
   box-sizing: border-box;
 }
 
-header {
-  width: 100%;
-  height: 55px;
-  background-color: white;
-  box-shadow: 0 3px 3px whitesmoke;
-}
 
-.jumbotron-container {
+.jumbotron-inner-container {
   padding-top: 180px;
   width: 80%;
   margin: 0 auto;
   display: block;
 }
 
-.big-copy{
+.jumbotron {
+  background-color: #b4d0e7;
+  width: 100%;
+  height: 600px;
+}
+
+.big-header{
   display: block;
-  text-align: center;
+  margin-bottom: 20px;
+}
+
+.big-copy-container {
+  width: 40%;
+}
+
+.big-copy-container h3,a,i {
+  margin-bottom: 20px;
 }
