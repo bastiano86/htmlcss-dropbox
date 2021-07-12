@@ -1,0 +1,18 @@
+.blue-btn {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 5px 5px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  margin: 20px auto;
+  transition: 1s;
+}
+
+.blue-btn:hover {
+  width: 98%;
+  background-color: blue;
+  transition: 0.2s;
+}

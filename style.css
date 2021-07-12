@@ -65,14 +65,14 @@
 }
 
 .tree-columns-inner-container {
-  padding-top: 80px;
+  padding-top: 100px;
   width: 100%;
-  margin: 0 auto;
+  margin: 10px auto;
   display: block;
 }
 
 .single-column {
-  border-radius: 5px;
+  border-radius: 3px;
   margin: 0 10px;
   width: 30%;
   list-style: none;
@@ -80,24 +80,21 @@
 }
 
 .single-column li {
-  padding: 5px 20px;
+  padding: 5px 30px;
 }
 
-.blue-btn {
-  text-decoration: none;
+.list-column li {
+  list-style: none;
+  font-size: 0.9em;
+}
+
+.list-column {
+  margin-bottom: 150px;
+}
+
+.enteprise-column {
+  width: 100%;
+  margin: 10px auto;
   display: block;
-  width: 95%;
-  height: 35px;
-  padding: 5px 8px;
-  color: white;
-  background-color: blue;
-  text-align: center;
-  margin: 20px auto;
-  transition: 1s;
-}
-
-.blue-btn:hover {
-  width: 92%;
-  background-color: blue;
-  transition: 0.2s;
+  background-color: red;
 }
