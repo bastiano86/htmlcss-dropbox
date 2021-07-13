@@ -2,11 +2,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h2 {
-  font-weight: 600;
-  font-size: 1em;
-}
-
 .big-header h1 {
   font-size: 4.5em;
 }
@@ -28,30 +23,14 @@ h2 {
 hr {
   border: none;
   background-color: lightgray;
-  height: 2px;
+    padding: 1px;
 }
 
 .single-column-title-container {
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
   text-align: center;
   width: 100%;
   height: 50px;
-  transition: 0.2s;
-  color: blue;
-}
-
-.single-column-title-container:hover {
-  text-align: center;
-  width: 100%;
-  height: 50px;
-  background-color: blue;
-  transition: 0.2s;
-  color: white;
-}
-
-.single-column-title-container h2{
-  font-weight: 800;
+  font-weight: 400;
   font-size: 1.1em;
   margin-top: 6px;
 }
@@ -72,22 +51,20 @@ hr {
   font-weight: 100;
 }
 
-.single-column .utente {
-  font-size: 1em;
-  font-weight: 400;
-  margin-top: 25px;
+.list-column li {
+  line-height: 50px;
+  list-style: none;
+  font-size: 0.9em;
 }
 
-.single-column .spazio {
-  font-size: 1em;
-  font-weight: 400;
-  margin-top: 10px;
+.single-column p {
+  font-size: 0.9em;
+  margin-bottom: 20px
 }
 
-.single-column .funzioni {
-  font-size: 1em;
-  font-weight: 400;
-  margin-top: 10px;
+.single-column .oppure {
+  margin-top: 20px;
+  font-size: 0.9em;
 }
 
 .list-column h1 {
@@ -95,8 +72,8 @@ hr {
 }
 
 .short-hr {
+  margin: 20px 0;
   width: 50px;
-  margin: 35px 0 35px 0;
 }
 
 .check-column {
@@ -106,4 +83,45 @@ hr {
 
 .acquista-ora {
   color: blue;
+}
+
+.blue-btn {
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  height: 35px;
+  padding: 5px 5px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.first-column h2{
+  font-size: 1.1em;
+}
+
+.first-column p{
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.partner-copy h1 {
+  margin-bottom: 20px;
+}
+
+.partner-copy p {
+  font-size: 0.9em;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.white-btn {
+  text-align: center;
+  border: 2px solid gray;
+  display: block;
+  padding: 10px 10px;
+  width: 150px;
+  font-size: 0.9em;;
+  color: gray
 }
