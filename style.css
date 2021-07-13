@@ -205,3 +205,34 @@
   height: 2px;
   background-color: lightgray;
 }
+
+footer {
+  padding-top: 50px;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  width: 100%;
+  margin: 50px auto;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 400px;
+}
+
+.footer-column {
+  width: 20%;
+  display: block;
+}
+
+
+
+.footer-list-column {
+  list-style-type: none;
+}
+
+.small-divider {
+  background-color: gray;
+  margin-top: 50px;
+  width: 50%;
+  height: 1px;
+}
