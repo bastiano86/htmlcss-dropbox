@@ -155,3 +155,23 @@ hr {
 .question-inner-container h2 {
   font-size: 1em;
 }
+
+.big-copy-container .blue-btn {
+  width: 50%;
+  transition: 0.5s
+}
+
+.big-copy-container .blue-btn:hover {
+  width: 51%;
+}
+
+.big-copy-container i {
+  font-size: 30px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 400px;
+}
