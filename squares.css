@@ -12,6 +12,20 @@
   display:block;
 }
 
+.central-square img {
+  width: 40%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.central-square p {
+  width: 70%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
 .lateral-columns-sx {
   width: 31%;
   height: 200px;
