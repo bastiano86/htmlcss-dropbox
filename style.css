@@ -126,3 +126,33 @@
   width: 49%;
   display:block;
 }
+
+.multitask-inner-container {
+  padding-top: 80px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  display: block;
+}
+
+.multi-grid-inner-container {
+  padding-top: 50px;
+  width: 100%;
+  margin: 10px auto;
+  display: block;
+}
+
+.slot {
+  padding: 20px;
+  border-radius: 3px;
+  margin-right: 2%;
+  width: 29%;
+}
+
+.slot img {
+  width: 100%;
+}
+
+.slot:last-child {
+  margin-right: 0;
+}

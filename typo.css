@@ -108,6 +108,7 @@ hr {
 
 .partner-copy h1 {
   margin-bottom: 20px;
+  font-size: 1.5em;
 }
 
 .partner-copy p {
@@ -124,4 +125,9 @@ hr {
   width: 150px;
   font-size: 0.9em;;
   color: gray
+}
+
+.slot h2 {
+  margin: 20px 0;
+  font-size: 1.3em;
 }
