@@ -138,16 +138,18 @@
 .multi-grid-inner-container {
   padding-top: 50px;
   width: 100%;
-  margin: 10px auto;
+  margin: 10px 1%;
   display: block;
 }
 
 .slot {
+  margin-top: 20px;
   padding: 20px;
   border-radius: 3px;
-  margin-right: 2%;
-  width: 29%;
+  margin-right: 1%;
+  width: 32%;
 }
+
 
 .slot img {
   width: 100%;
@@ -155,4 +157,17 @@
 
 .slot:last-child {
   margin-right: 0;
+}
+
+.global-users-copy-inner-container {
+  padding-top: 80px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  display: block;
+}
+
+.global-users-copy-inner-container a {
+  color: blue;
+  font-size: 0.9em;
 }

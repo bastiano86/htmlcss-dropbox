@@ -127,7 +127,16 @@ hr {
   color: gray
 }
 
+.slot p {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
 .slot h2 {
   margin: 20px 0;
   font-size: 1.3em;
+}
+
+.global-users-copy-inner-container h2{
+  margin-bottom: 10px;
 }
