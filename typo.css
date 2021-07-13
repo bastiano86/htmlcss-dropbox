@@ -23,16 +23,21 @@ body {
 hr {
   border: none;
   background-color: lightgray;
-    padding: 1px;
+  padding: 1px;
+}
+
+input {
+  width: 10px;
+  display: block;
 }
 
 .single-column-title-container {
   text-align: center;
   width: 100%;
-  height: 50px;
+  height: 25px;
   font-weight: 400;
   font-size: 1.1em;
-  margin-top: 6px;
+  margin: 10px 0;
 }
 
 .single-column h3 {
@@ -94,7 +99,7 @@ hr {
   color: white;
   background-color: blue;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .first-column h2{
@@ -161,13 +166,10 @@ hr {
 }
 
 .big-copy-container .blue-btn {
-  width: 50%;
+  width: 60%;
   transition: 0.5s
 }
 
-.big-copy-container .blue-btn:hover {
-  width: 51%;
-}
 
 .big-copy-container i {
   font-size: 30px;
