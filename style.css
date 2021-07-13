@@ -191,14 +191,17 @@
 }
 
 .question {
-  width: 50%;
-}
-
-.arrow {
-  width: 50%;
+  display: block;
 }
 
 .question-inner-container {
     display: block;
     width: 100%;
+}
+
+.big-divider {
+  margin: 25px 0;
+  width: 100%;
+  height: 2px;
+  background-color: lightgray;
 }

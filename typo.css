@@ -151,3 +151,7 @@ hr {
   width: 40%;
   border: none;
 }
+
+.question-inner-container h2 {
+  font-size: 1em;
+}
