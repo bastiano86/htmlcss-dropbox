@@ -171,3 +171,15 @@
   color: blue;
   font-size: 0.9em;
 }
+
+.commercial-inner-container {
+  padding-top: 100px;
+  width: 70%;
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+.commercial {
+  background-color: #b4d0e7;
+}

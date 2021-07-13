@@ -124,7 +124,8 @@ hr {
   padding: 10px 10px;
   width: 150px;
   font-size: 0.9em;;
-  color: gray
+  color: gray;
+  background-color: white;
 }
 
 .slot p {
@@ -139,4 +140,16 @@ hr {
 
 .global-users-copy-inner-container h2{
   margin-bottom: 10px;
+}
+
+
+
+.commercial-inner-container h1 {
+  color: #800000;
+  width: 40%;
+}
+
+.commercial-inner-container .white-btn {
+  width: 40%;
+  border: none;
 }
