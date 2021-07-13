@@ -183,3 +183,22 @@
 .commercial {
   background-color: #b4d0e7;
 }
+
+.survey-inner-container {
+  display: block;
+  width: 70%;
+  margin: 50px auto;
+}
+
+.question {
+  width: 50%;
+}
+
+.arrow {
+  width: 50%;
+}
+
+.question-inner-container {
+    display: block;
+    width: 100%;
+}
