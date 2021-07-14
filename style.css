@@ -80,7 +80,14 @@
   border: 2px solid lightgray;
 }
 
-.single-column li, p, h3,.blue-btn {
+.single-column i {
+  color: blue;
+  margin-right: 4px;
+}
+
+.single-column li,
+.single-column p,
+.single-column h3 {
   padding: 0 20px;
 }
 
@@ -135,14 +142,14 @@
 }
 
 .partner-inner-container img {
-  width: 40%;
+  width: 50%;
   display: block;
   margin-right: 5%;
 }
 
 .partner-copy {
-  margin-top:60px;
-  width: 49%;
+  margin-top:30px;
+  width: 40%;
   display:block;
 }
 
@@ -231,7 +238,7 @@ footer {
   padding-left: 10%;
   padding-bottom: 20px;
   width: 100%;
-  margin: 50px auto;
+  margin: 0 auto;
   color: white;
   background-color: black;
   width: 100%;
@@ -260,4 +267,8 @@ footer {
   margin-top: 20px;
   width: 20%;
   height: 2px;
+}
+
+.central-square .small-divider-column {
+  margin-left: 50px;
 }

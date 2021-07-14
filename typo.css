@@ -26,15 +26,10 @@ hr {
   padding: 1px;
 }
 
-input {
-  width: 10px;
-  display: block;
-}
-
 .single-column-title-container {
   text-align: center;
   width: 100%;
-  height: 25px;
+  height: 20px;
   font-weight: 400;
   font-size: 1.1em;
   margin: 10px 0;
@@ -57,9 +52,11 @@ input {
 }
 
 .list-column li {
-  line-height: 50px;
+  line-height: 20px;
   list-style: none;
   font-size: 0.9em;
+  font-size: 0.9em;
+  margin-bottom: 20px
 }
 
 .single-column p {
@@ -68,12 +65,13 @@ input {
 }
 
 .single-column .oppure {
-  margin-top: 20px;
+  margin: 30px 0;
   font-size: 0.9em;
 }
 
 .list-column h1 {
   font-size: 1.3em;
+  margin-top: 30px;
 }
 
 .short-hr {
