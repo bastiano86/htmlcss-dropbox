@@ -1,0 +1,96 @@
+.squares-section {
+  margin-top: 50px;
+  width: 100%;
+  height: 400px;
+  background-color: green;
+}
+
+.central-column {
+  width: 38%;
+  height: 400px;
+  background-color: whitesmoke  ;
+  display:block;
+}
+
+.central-square img {
+  width: 40%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.central-square p {
+  width: 70%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.lateral-columns-sx {
+  width: 31%;
+  height: 200px;
+  background-color: red;
+  display: block;
+}
+
+.lateral-columns-dx {
+  width:31%;
+  height: 200px;
+  background-color: orange;
+  display: block;
+}
+
+.square {
+  position: relative;
+  width: 50%;
+  height: 200px;
+  display: block;
+  transition: 0.5s;
+  border: 0px
+}
+
+.square:hover {
+  border: 5px solid rgba(255,255,255,0.5);
+}
+
+.square img {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  filter: invert(1);
+  width: 70%;
+  transform:
+}
+
+.one {
+  background-color: #99cc99;
+}
+
+.two {
+  background-color: #660033;
+}
+
+.three {
+  background-color: #0099cc;
+}
+
+.four {
+  background-color: #ff3333;
+}
+
+.five {
+  background-color: #cc0033;
+}
+
+.six {
+  background-color: #ccccff;
+}
+
+.seven {
+  background-color: #003399;
+}
+
+.height {
+  background-color: #ffcc33;
+}
